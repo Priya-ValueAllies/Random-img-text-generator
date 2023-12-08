@@ -1,0 +1,94 @@
+body {
+    /*text-align: center;*/
+    background-size: cover;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgb(95,207,128);
+  }
+  #name-box {
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    line-height: .5;
+  }
+  .name {
+    font-size: 4rem;
+    line-height: 1.1;
+    text-shadow: 0 3px 3px rgba(210, 14, 14, 0.8);
+    position: relative;
+    margin: 0;
+    } 
+  .name:before, .name:after {
+    font-size: 4rem;
+    line-height: 2.5rem;
+    position: absolute;
+  }
+  .name:before {
+    content: "“";
+    top: .25em;
+    left: -.5em;
+  }
+  .name:after {
+    content: "”";
+    margin-left: .1em;
+    top: .25em;
+    position: absolute;
+  }
+.place {
+    font-size: 4rem;
+    font-style: italic;
+  }
+.place:after {
+    content: ", ";
+    font-style: normal;
+  }
+
+  #loadName {
+    font-size: 2.5rem;;
+    position: fixed;
+    width: 7em;
+    display: inline-block;
+    left: 50%;
+    margin-left: -6em;
+    bottom: 150px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: rgba(255,255,255, 0);
+    padding: 15px 0;
+    transition: .5s ;
+  }
+  #loadName:hover {
+    background-color: rgba(255,255,255,.25);
+  }
+  #loadName:focus {
+    outline: none;
+  }
+
+
+  .sentence{
+    font-size: 2rem;
+    font-style: italic;
+  }
+
+  #clickMe:hover{
+background-color:rgba(255,255,255,0.5);
+
+  }
+
+.contactNo{
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.contactNo:before{
+  content: "+91 ";
+}
+
+.pincode{
+  font-size: 2.5rem;
+}
+.pincode:before{
+  content:""
+}
